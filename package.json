@@ -5,11 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,css,less,sass,scss,md}\""
   },
   "dependencies": {
+    "date-fns": "2.16.1",
+    "gray-matter": "4.0.2",
     "next": "^10.0.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "remark": "13.0.0",
+    "remark-html": "13.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   }
 }
